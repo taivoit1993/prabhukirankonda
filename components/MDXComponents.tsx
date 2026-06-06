@@ -1,6 +1,6 @@
 import TOCInline from './TOCInline'
 import Pre from './Pre'
-import BlogNewsletterForm from 'pliny/ui/BlogNewsletterForm'
+import BlogNewsletterForm from 'pliny/ui/BlogNewsletterForm.js'
 import type { MDXComponents } from 'mdx/types'
 import Image from './Image'
 import CustomLink from './Link'

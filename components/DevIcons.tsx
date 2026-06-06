@@ -12,8 +12,8 @@ export function PythonIcon() {
         y2="1151.089"
         gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"
       >
-        <stop offset="0" stop-color="#5A9FD4"></stop>
-        <stop offset="1" stop-color="#306998"></stop>
+        <stop offset="0" stopColor="#5A9FD4"></stop>
+        <stop offset="1" stopColor="#306998"></stop>
       </linearGradient>
       <linearGradient
         id="python-original-b"
@@ -24,8 +24,8 @@ export function PythonIcon() {
         y2="1149.537"
         gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"
       >
-        <stop offset="0" stop-color="#FFD43B"></stop>
-        <stop offset="1" stop-color="#FFE873"></stop>
+        <stop offset="0" stopColor="#FFD43B"></stop>
+        <stop offset="1" stopColor="#FFE873"></stop>
       </linearGradient>
       <path
         fill="url(#python-original-a)"
@@ -45,8 +45,8 @@ export function PythonIcon() {
         gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"></stop>
-        <stop offset="1" stop-color="#7F7F7F" stop-opacity="0"></stop>
+        <stop offset="0" stopColor="#B8B8B8" stopOpacity=".498"></stop>
+        <stop offset="1" stopColor="#7F7F7F" stopOpacity="0"></stop>
       </radialGradient>
       <path
         opacity=".444"
@@ -494,8 +494,8 @@ export const Prisma = () => {
         width={24}
       >
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M2.39749 123.367C0.476293 126.5 0.506027 130.455 2.47414 133.559L38.0964 189.752C40.4083 193.399 44.8647 195.062 49.0006 193.821L151.798 162.982C157.408 161.299 160.23 155.041 157.778 149.722L91.6953 6.37265C88.4726 -0.618156 78.7573 -1.19199 74.734 5.37082L2.39749 123.367ZM89.9395 39.1438C88.535 35.8938 83.7788 36.3944 83.0817 39.8656L57.64 166.544C57.1035 169.215 59.6044 171.496 62.215 170.717L133.24 149.515C135.313 148.897 136.381 146.607 135.522 144.621L89.9395 39.1438Z"
           fill="white"
         />
@@ -510,6 +510,47 @@ export const Drizzle = () => {
       height={24}
       width={24}
       viewBox="0 0 160 160"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        width="9.63139"
+        height="40.8516"
+        rx="4.8157"
+        transform="matrix(0.873028 0.48767 -0.497212 0.867629 43.4805 67.3037)"
+        fill="currentColor"
+      ></rect>
+      <rect
+        width="9.63139"
+        height="40.8516"
+        rx="4.8157"
+        transform="matrix(0.873028 0.48767 -0.497212 0.867629 76.9395 46.5342)"
+        fill="currentColor"
+      ></rect>
+      <rect
+        width="9.63139"
+        height="40.8516"
+        rx="4.8157"
+        transform="matrix(0.873028 0.48767 -0.497212 0.867629 128.424 46.5352)"
+        fill="currentColor"
+      ></rect>
+      <rect
+        width="9.63139"
+        height="40.8516"
+        rx="4.8157"
+        transform="matrix(0.873028 0.48767 -0.497212 0.867629 94.957 67.3037)"
+        fill="currentColor"
+      ></rect>
+    </svg>
+  )
+}
+
+export const Aws = () => {
+  return (
+    <svg
+      height={24}
+      width={24}
+      viewBox="0 0 128 128"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -565,6 +606,7 @@ export const DevIcons = {
   Firebase: Firebase,
   Prisma: Prisma,
   Drizzle: Drizzle,
+  AWS: Aws,
 }
 
 export function FamiliarTechStack() {

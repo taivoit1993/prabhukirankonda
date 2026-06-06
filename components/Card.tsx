@@ -50,13 +50,12 @@ const Card = ({ title, description, imgSrc, href, techStack }) => {
           </div>
           <h2 className="mb-3 text-2xl font-bold leading-8 tracking-tight">{title}</h2>
           <p className="prose max-w-none text-gray-500 dark:text-gray-400">{description}</p>
-          <Link
-            href={href}
+          <div
             className="mt-auto text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label={`Link to ${title}`}
           >
             Learn more &rarr;
-          </Link>
+          </div>
         </div>
       </div>
     </a>
